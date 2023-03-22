@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/swaguespack/shellbys-reimagined-portfolio/static/css/main.e9b32fbc.css",
+    "main.js": "/swaguespack/shellbys-reimagined-portfolio/static/js/main.a02d9d8f.js",
+    "static/media/shellby-profile-pic.png": "/swaguespack/shellbys-reimagined-portfolio/static/media/shellby-profile-pic.0daacb795ccc4e8f0a94.png",
+    "index.html": "/swaguespack/shellbys-reimagined-portfolio/index.html",
+    "main.e9b32fbc.css.map": "/swaguespack/shellbys-reimagined-portfolio/static/css/main.e9b32fbc.css.map",
+    "main.a02d9d8f.js.map": "/swaguespack/shellbys-reimagined-portfolio/static/js/main.a02d9d8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9b32fbc.css",
+    "static/js/main.a02d9d8f.js"
+  ]
+}
