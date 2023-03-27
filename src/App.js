@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // Import Components
-import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import PortfolioContainer from "./components/PortfolioContainer";
@@ -30,7 +29,7 @@ function App() {
         currentPage={currentPage}
         pages={pages}
       />
-      <Header className="App-header" />
+
       <PortfolioContainer currentPage={currentPage} />
       <Footer className="App-footer" />
     </div>

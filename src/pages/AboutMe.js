@@ -1,6 +1,4 @@
 import React from 'react';
-//import "../pages";
-//import { Link } from "react-router-dom";
 import ProfilePic from "../assets/shellby-profile-pic.png";
 
 

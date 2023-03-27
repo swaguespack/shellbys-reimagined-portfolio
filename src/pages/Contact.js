@@ -15,6 +15,7 @@ function Contact() {
     }
   };
 
+  // Validate input and display error messages if entered incorrectly or not at all
   const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
@@ -36,31 +37,36 @@ function Contact() {
     }
   };
 
+// Display form sections
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact Me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
-    </section>
+    <div className="container mt-5">
+    <h2 className="mb-3">Let's Connect!</h2>
+    <form onSubmit={handleSubmit}>
+      <div className="mb-3">
+        <label className="form-label" htmlFor="name">
+          Name
+        </label>
+        <input className="form-control" type="text" id="name" required defaultValue={name} onBlur={handleChange}/>
+      </div>
+      <div className="mb-3">
+        <label className="form-label" htmlFor="email" >
+          Email
+        </label>
+        <input className="form-control" type="email" id="email" required defaultValue={email} onBlur={handleChange}/>
+      </div>
+      <div className="mb-3">
+        <label className="form-label" htmlFor="message">
+          Message
+        </label>
+        <textarea className="form-control" id="message" required defaultValue={message} onBlur={handleChange} />
+      </div>
+      <button className="btn btn-primary" type="submit">
+        Submit
+      </button>
+    </form>
+  </div>
   );
 }
+
 
 export default Contact;
