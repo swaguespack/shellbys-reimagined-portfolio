@@ -1,0 +1,17 @@
+.myBackgroundText {
+    text-align: left;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.myBackgroundCard {
+    padding: 50px;
+    border: 50px;
+  margin: 300px;
+}
+
+
+.card-img-top  {
+    height: auto;
+    width: auto;
+}
