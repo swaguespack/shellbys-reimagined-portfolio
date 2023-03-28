@@ -22,16 +22,16 @@ function App() {
 
   // Sets up main page
   return (
-    <div className="App">
+    <div class="App">
       <Nav
-        className="App-nav"
+        class="App-nav"
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
         pages={pages}
       />
 
       <PortfolioContainer currentPage={currentPage} />
-      <Footer className="App-footer" />
+      <Footer class="App-footer" />
     </div>
   );
 }

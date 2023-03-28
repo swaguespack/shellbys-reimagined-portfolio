@@ -4,27 +4,55 @@ body{
   min-height: 100vh;
 }
 
-.profile-picture {
-  width: 24%;
-  height: 5%
+button {
+  font-family: 'News Cycle', sans-serif;
+  background-color: #F9E79F !important;
+  width: 10rem;
+  font-weight: bold;
+  
 }
 
-.profile-pic {
-  flex-basis: 360%;
-  margin: 50px;
+/* -------- NAVIGATION BAR ------------- */
+.navbar {
+  margin-bottom: 0;
+  background-color: #F9E79F;
+  z-index: 9999;
+  border: 0;
+  font-size: 16px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+color: #424949  !important;
+margin-left:10px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #424949  !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
 }
 
-.aboutMe {
-  display: inline;
+#profilePic{
+ margin-left: 150px;
+}
+#aboutMeText {
+  display: flex;
   line-height: 35px;
-  margin-left: 130px;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  
   }
 
-  .aboutMeContainer {
+  .aboutMe {
     display: flex;
     align-items: center;
-    justify-content: center
+    min-height: 90vh;
+    
   }
   
   .container{
@@ -33,12 +61,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
   }
-  
-
-  img {
-    max-width: 100%
-  }
-  
+    
   .text {
     font-size: 20px;
     padding-left: 20px;
@@ -60,6 +83,7 @@ body{
     display: flex;
     justify-content: center;
     border-top: 2px solid black;
+    background-color: #F9E79F;
   
   }
   
@@ -74,6 +98,10 @@ body{
     list-style-type: square;
     margin: 30px;
     margin-top: 40px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   #prof-list ul li{
@@ -84,7 +112,11 @@ body{
     margin-bottom: 50px;
   }
 
-  #resume-button{
+  .contact-button{
+    background-color: #0275d8 !important;
+  }
+
+  #resume-button {
     margin-bottom: 50px;
   }
 

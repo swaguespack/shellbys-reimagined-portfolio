@@ -10,8 +10,9 @@ import CodingQuiz from "../assets/Project6-CodingQuiz.png"
 
 function Portfolio() {
     return (
-      <section className="portfolio">
       
+      <section className="portfolio">
+      <h1 class="text-center m-5">My Apps</h1>
          <div className="row row-cols-1 row-cols-md-3">
 
           <div className="col mb-4">
@@ -24,7 +25,7 @@ function Portfolio() {
               <div class="card-body">
   
                 <a href="https://github.com/swaguespack/WeatherVibes" target="_blank" rel="noreferrer">
-                  <button>GitHub</button>
+                  <button >GitHub</button>
                 </a>
                 <a href="https://swaguespack.github.io/WeatherVibes/" target="_blank" rel="noreferrer">
                   <button>Website</button>
@@ -33,8 +34,6 @@ function Portfolio() {
             </div>
             </div>
        
-  
-  
             <div className="col mb-4">
             <div className="card h-100">
               <img

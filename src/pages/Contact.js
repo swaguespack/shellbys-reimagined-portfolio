@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from "react-bootstrap/Button";
 
 import { validateEmail } from '../utils/helpers';
 
@@ -60,9 +61,9 @@ function Contact() {
         </label>
         <textarea className="form-control" id="message" required defaultValue={message} onBlur={handleChange} />
       </div>
-      <button className="btn btn-primary" type="submit">
+      <Button className="btn btn-primary contact-button" type="submit" variant="primary">
         Submit
-      </button>
+      </Button>
     </form>
   </div>
   );
