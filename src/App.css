@@ -70,6 +70,25 @@ body{
     color: black;
   }
 
+  #prof-list{
+    list-style-type: square;
+    margin: 30px;
+    margin-top: 40px;
+  }
+
+  #prof-list ul li{
+    margin: 10px;
+  }
+
+  #prof-list h1{
+    margin-bottom: 50px;
+  }
+
+  #resume-button{
+    margin-bottom: 50px;
+  }
+
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;

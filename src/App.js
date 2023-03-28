@@ -6,7 +6,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import PortfolioContainer from "./components/PortfolioContainer";
-import Resume from './pages/Resume';
 
 function App() {
   const [pages] = useState([
@@ -32,7 +31,6 @@ function App() {
       />
 
       <PortfolioContainer currentPage={currentPage} />
-      <Resume currentPage={currentPage} />
       <Footer className="App-footer" />
     </div>
   );
