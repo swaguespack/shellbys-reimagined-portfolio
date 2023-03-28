@@ -10,11 +10,12 @@ import CodingQuiz from "../assets/Project6-CodingQuiz.png"
 
 function Portfolio() {
     return (
-      <section class="portfolio">
-  
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+      <section className="portfolio">
+      
+         <div className="row row-cols-1 row-cols-md-3">
+
+          <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={WeatherVibes}
                 alt="WeatherVibes"
@@ -30,17 +31,18 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
+            </div>
+       
   
   
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+            <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={WheresMyWings}
                 alt="WheresMyWings"
                 class="card-img-top"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <a href="https://github.com/swaguespack/wheres-my-wings" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
@@ -49,16 +51,17 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
+            </div>
+         
   
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+            <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={WorkScheduler}
                 alt="Final Project"
                 class="card-img-top"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <a href="https://github.com/swaguespack/Shellbys-Work-Day-Scheduler" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
@@ -66,18 +69,18 @@ function Portfolio() {
                   <button>Website</button>
                 </a>
               </div>
-            </div>
+              </div>
           </div>
   
   
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+          <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={PasswordGenerator}
                 alt="Password Generator"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <a href="https://github.com/swaguespack/03-challenge-Password-Generator" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
@@ -85,17 +88,19 @@ function Portfolio() {
                   <button>Website</button>
                 </a>
               </div>
-            </div>
-          </div>
+              </div>
+              </div>
+          
+       
   
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+            <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={WeatherDashboard}
                 alt="Coming Soon"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <a href="https://github.com/swaguespack/Shellbys-Weather-Dashboard" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
@@ -104,28 +109,30 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
-  
-          <div class="col-lg d-flex align-items-stretch">
-            <div class="card">
+            </div>
+        
+            <div className="col mb-4">
+            <div className="card h-100">
               <img
                 src={CodingQuiz}
                 alt="Coming Soon"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <a href="https://github.com/swaguespack/04-Challenge-Coding-Quiz" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
                 <a href="https://swaguespack.github.io/04-Challenge-Coding-Quiz/" target="_blank" rel="noreferrer">
                   <button>Website</button>
                 </a>
-              </div>
+         
+            </div>
             </div>
           </div>
-  
-  
-        </div>
+          </div>
+     
+   
+
       </section>
   
   

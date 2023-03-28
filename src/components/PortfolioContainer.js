@@ -4,7 +4,7 @@ import Resume from "../pages/Resume";
 import AboutMe from "../pages/AboutMe";
 import Contact from "../pages/Contact";
 
-// If statements to render correct page according to user click
+// Switch case to render correct page according to user click
 function PortfolioContainer({ currentPage }) {
 
   function renderPage() {

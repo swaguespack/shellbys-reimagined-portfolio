@@ -1,3 +1,9 @@
+body{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .profile-picture {
   width: 24%;
   height: 5%
@@ -21,6 +27,14 @@
     justify-content: center
   }
   
+  .container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+
   img {
     max-width: 100%
   }
@@ -42,10 +56,9 @@
 
   footer {
     width: 100%;
-    bottom: 0;
+    margin-top: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-top: 2px solid black;
   
   }
