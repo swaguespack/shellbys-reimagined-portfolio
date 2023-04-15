@@ -3,7 +3,7 @@ import React from "react";
 // Import 6 project screenshots
 import WeatherVibes from "../assets/Project2-Weather_Vibes.png"
 import WheresMyWings from "../assets/Project1-wings_map.png"
-import WorkScheduler from "../assets/Project3-WorkScheduler.png"
+import Artfolio from "../assets/artfolio.png"
 import PasswordGenerator from "../assets/Project4-PasswordGenerator.png"
 import WeatherDashboard from "../assets/Project5-WeatherDashboard.png"
 import CodingQuiz from "../assets/Project6-CodingQuiz.png"
@@ -56,15 +56,15 @@ function Portfolio() {
             <div className="col mb-4">
             <div className="card h-100">
               <img
-                src={WorkScheduler}
+                src={Artfolio}
                 alt="Final Project"
                 class="card-img-top"
               />
               <div className="card-body">
-                <a href="https://github.com/swaguespack/Shellbys-Work-Day-Scheduler" target="_blank" rel="noreferrer">
+                <a href="https://github.com/swaguespack/eg-art" target="_blank" rel="noreferrer">
                   <button>GitHub</button>
                 </a>
-                <a href="https://swaguespack.github.io/Shellbys-Work-Day-Scheduler/" target="_blank" rel="noreferrer">
+                <a href="https://artfolio.herokuapp.com/" target="_blank" rel="noreferrer">
                   <button>Website</button>
                 </a>
               </div>
